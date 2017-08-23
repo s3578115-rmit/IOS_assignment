@@ -15,6 +15,7 @@
 		A8649BD71F4D28700075F53A /* ReventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8649BD61F4D28700075F53A /* ReventsTests.swift */; };
 		A8649BE21F4D28700075F53A /* ReventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8649BE11F4D28700075F53A /* ReventsUITests.swift */; };
 		A8649BF61F4D37B60075F53A /* ViewEvents.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8649BF51F4D37B60075F53A /* ViewEvents.xib */; };
+		A8649BF81F4D4E6A0075F53A /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8649BF71F4D4E6A0075F53A /* EventController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A8649BE11F4D28700075F53A /* ReventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReventsUITests.swift; sourceTree = "<group>"; };
 		A8649BE31F4D28700075F53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8649BF51F4D37B60075F53A /* ViewEvents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewEvents.xib; sourceTree = "<group>"; };
+		A8649BF71F4D4E6A0075F53A /* EventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,6 @@
 				A8649BF31F4D36240075F53A /* Model */,
 				A8649BF11F4D35FE0075F53A /* View */,
 				A8649BC11F4D28700075F53A /* AppDelegate.swift */,
-				A8649BC31F4D28700075F53A /* ViewController.swift */,
 				A8649BC81F4D28700075F53A /* Assets.xcassets */,
 				A8649BCA1F4D28700075F53A /* LaunchScreen.storyboard */,
 				A8649BCD1F4D28700075F53A /* Info.plist */,
@@ -148,6 +149,8 @@
 		A8649BF41F4D362A0075F53A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A8649BC31F4D28700075F53A /* ViewController.swift */,
+				A8649BF71F4D4E6A0075F53A /* EventController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				A8649BC41F4D28700075F53A /* ViewController.swift in Sources */,
 				A8649BC21F4D28700075F53A /* AppDelegate.swift in Sources */,
+				A8649BF81F4D4E6A0075F53A /* EventController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
