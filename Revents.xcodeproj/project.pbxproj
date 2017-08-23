@@ -14,6 +14,7 @@
 		A8649BCC1F4D28700075F53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8649BCA1F4D28700075F53A /* LaunchScreen.storyboard */; };
 		A8649BD71F4D28700075F53A /* ReventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8649BD61F4D28700075F53A /* ReventsTests.swift */; };
 		A8649BE21F4D28700075F53A /* ReventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8649BE11F4D28700075F53A /* ReventsUITests.swift */; };
+		A8649BF61F4D37B60075F53A /* ViewEvents.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8649BF51F4D37B60075F53A /* ViewEvents.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A8649BDD1F4D28700075F53A /* ReventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8649BE11F4D28700075F53A /* ReventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReventsUITests.swift; sourceTree = "<group>"; };
 		A8649BE31F4D28700075F53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8649BF51F4D37B60075F53A /* ViewEvents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewEvents.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,11 @@
 		A8649BC01F4D28700075F53A /* Revents */ = {
 			isa = PBXGroup;
 			children = (
+				A8649BF41F4D362A0075F53A /* Controller */,
+				A8649BF31F4D36240075F53A /* Model */,
+				A8649BF11F4D35FE0075F53A /* View */,
 				A8649BC11F4D28700075F53A /* AppDelegate.swift */,
 				A8649BC31F4D28700075F53A /* ViewController.swift */,
-				A8649BC51F4D28700075F53A /* Main.storyboard */,
 				A8649BC81F4D28700075F53A /* Assets.xcassets */,
 				A8649BCA1F4D28700075F53A /* LaunchScreen.storyboard */,
 				A8649BCD1F4D28700075F53A /* Info.plist */,
@@ -123,6 +127,29 @@
 				A8649BE31F4D28700075F53A /* Info.plist */,
 			);
 			path = ReventsUITests;
+			sourceTree = "<group>";
+		};
+		A8649BF11F4D35FE0075F53A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8649BC51F4D28700075F53A /* Main.storyboard */,
+				A8649BF51F4D37B60075F53A /* ViewEvents.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A8649BF31F4D36240075F53A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A8649BF41F4D362A0075F53A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +262,7 @@
 				A8649BCC1F4D28700075F53A /* LaunchScreen.storyboard in Resources */,
 				A8649BC91F4D28700075F53A /* Assets.xcassets in Resources */,
 				A8649BC71F4D28700075F53A /* Main.storyboard in Resources */,
+				A8649BF61F4D37B60075F53A /* ViewEvents.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +535,7 @@
 				A8649BE81F4D28700075F53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8649BE91F4D28700075F53A /* Build configuration list for PBXNativeTarget "ReventsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				A8649BEB1F4D28700075F53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8649BEC1F4D28700075F53A /* Build configuration list for PBXNativeTarget "ReventsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				A8649BEE1F4D28700075F53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
