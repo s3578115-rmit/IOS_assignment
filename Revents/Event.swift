@@ -12,20 +12,36 @@ import Foundation
 class Event{
     
     
-    
-    let eventHeadings = ["/dev/world/2017" , "The Gateway Plan"]
-    let eventAddress = ["/dev/world/2017" , "The Gateway Plan"]
-    let eventHeadings = ["/dev/world/2017" , "The Gateway Plan"]
-    let eventImages = ["e1" , "e2"]
-    
-    func getEventHeadingByIndex( _ index: Int)  -> String{
-        return eventHeadings[index];
-    }
-    func getEventImagesByIndex( _ index: Int)  -> String{
-        return eventImages[index];
-    }
-    func getEventCount() -> Int {
-        return (eventHeadings.count)
+    var eventName: String;
+    var eventImage: String;
+    var eventAddress: String;
+    var eventDate: String;
+    var eventTime: String;
+   
+    init(name: String , image:String   , address:String , date:String , time:String) {
+        eventName = name
+        eventImage = image;
+        eventAddress = address;
+        eventDate = date;
+        eventTime = time;
     }
     
+
+    
+    func getEventHeadingByName()  -> String{
+        return eventName;
+    }
+    func getEventImagesByName()  -> String{
+        return eventImage;
+    }
+    func getEventAddressByName() -> String {
+        return eventAddress;
+    }
+    func getEventDateByName() -> String {
+        return eventDate;
+    }
+    func getEventTimeByName() -> String {
+        return eventTime;
+    }
+
 }
