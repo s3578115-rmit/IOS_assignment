@@ -12,7 +12,7 @@
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Tarot List"
-  
+        
     
     }
 
