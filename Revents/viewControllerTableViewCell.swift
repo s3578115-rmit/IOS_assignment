@@ -10,6 +10,8 @@ import UIKit
 
 class viewTableControllerCell:UITableViewCell {
     
+    
+    
     @IBOutlet weak var myImage: UIImageView!
     
     @IBOutlet weak var myEvent: UILabel!
@@ -20,10 +22,15 @@ class viewTableControllerCell:UITableViewCell {
    
     @IBOutlet weak var myTime: UILabel!
     
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
+    
 }

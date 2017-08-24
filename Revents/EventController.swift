@@ -1,4 +1,4 @@
- //
+  //
 //  EventController.swift
 //  Revents
 //
@@ -9,51 +9,54 @@
  
  class EventController: UIViewController, UITableViewDelegate , UITableViewDataSource{
 
-        var events : Array<Event> = [];
-        
-    //}
+    let get = DataModel();
     
-   
-
-    
-    
-   
-    
-  //  myEvents[1] = Event(name:"/dev/world/2017",image:"e2" )
+    var rID:Int =  0;
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section:Int) -> Int {
-        return  (events.count)
+        return  (get.getEvents().count);
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell" , for:indexPath) as! viewTableControllerCell
-        cell.myImage.image = UIImage(named: events[indexPath.row].eventImage+".jpg")
+        cell.myImage.image = UIImage(named: get.getEvents()[indexPath.row].eventImage+".jpg")
         
-        cell.myEvent.text  =  events[indexPath.row].eventName;
+        cell.myEvent.text  =  get.getEvents()[indexPath.row].eventName;
         
-        cell.myAddress.text = events[indexPath.row].eventAddress;
+        cell.myAddress.text = get.getEvents()[indexPath.row].eventAddress;
         
-        cell.myDate.text = events[indexPath.row].eventDate;
+        cell.myDate.text = get.getEvents()[indexPath.row].eventDate;
         
-        cell.myTime.text = events[indexPath.row].eventTime
+        cell.myTime.text = get.getEvents()[indexPath.row].eventTime
     
+
+  
+        
         return (cell)
     }
+
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+         rID = indexPath.row; // rowID to be sent to EventDescriptionController
+        
+        performSegue(withIdentifier: "eventDesc", sender: self ); // Segue navigates screen
+    }
+    // This function is called before the segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // get a reference to the second view controller
+        let secondViewController = segue.destination as! EventDescriptionController
+        
+        // set a variable in the second view controller with the data to pass
+        secondViewController.receivedData = String(rID);
+    }
+
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        events.append(Event(name:"/dev/world/2017",
-                            image:"e1",
-                            address:"RMIT Swanston Academic Building 80/445 Swanston St Melbourne, VIC 3000",
-                            date: "28th - 30th September",
-                            time: " 9:00am - 5:00pm"
-                       ));
-        events.append(Event(name:"The Gateway Plan",
-                            image:"e2",
-                            address:"The Corner Hotel 57 Swan Street Richmond, VIC 312",
-                            date: "10th September",
-                            time: "7:30am"
-                       ));
     }
     
     override func didReceiveMemoryWarning() {

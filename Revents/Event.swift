@@ -17,16 +17,20 @@ class Event{
     var eventAddress: String;
     var eventDate: String;
     var eventTime: String;
+    var eventDescription: String;
+    
+ 
+
    
-    init(name: String , image:String   , address:String , date:String , time:String) {
+    init(name: String , image:String   , address:String , date:String , time:String ,description:String ) {
         eventName = name
         eventImage = image;
         eventAddress = address;
         eventDate = date;
         eventTime = time;
+        eventDescription = description;
+        
     }
-    
-
     
     func getEventHeadingByName()  -> String{
         return eventName;
@@ -43,5 +47,9 @@ class Event{
     func getEventTimeByName() -> String {
         return eventTime;
     }
-
+    func getEventDescription() -> String {
+        return eventDescription;
+    }
+  
 }
+
