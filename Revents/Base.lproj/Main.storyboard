@@ -152,31 +152,12 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvu-Wh-34B">
-                                <rect key="frame" x="107" y="600" width="144" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.064437214189999995" blue="0.09709371067" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <color key="tintColor" red="0.9916218870686192" green="1" blue="0.99800456737730647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Book Now"/>
-                                <connections>
-                                    <segue destination="MqQ-lh-cuX" kind="push" id="VxT-it-YX0"/>
-                                </connections>
-                            </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CHs-BJ-f3a">
                                 <rect key="frame" x="0.0" y="8" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="1" green="0.64433013760000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <navigationItem title="Revents" id="0xX-QV-1fW">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Nbq-fO-sTi">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Krb-fb-sqC">
-                                                <rect key="frame" x="20" y="7" width="83" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem title="Revents" id="0xX-QV-1fW"/>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYp-tA-F0w">
@@ -197,11 +178,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FM-Hz-0p8">
+                                <rect key="frame" x="108" y="638" width="143" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.064437214189999995" blue="0.09709371067" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Book Now">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IlW-Es-2rO" kind="push" identifier="send" id="BkY-V6-rqv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="backButton" destination="Nbq-fO-sTi" id="sbf-u3-Ysu"/>
                         <outlet property="myEventAddress" destination="1GT-h4-Caz" id="nRg-8I-Jx1"/>
                         <outlet property="myEventDate" destination="8hO-V7-wa2" id="J7C-Q7-1rd"/>
                         <outlet property="myEventDates" destination="lMO-iH-uaz" id="Z99-mf-CTR"/>
@@ -214,6 +206,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bI1-S7-xgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1809" y="-947"/>
+        </scene>
+        <!--Booking Controller-->
+        <scene sceneID="7HS-wJ-spf">
+            <objects>
+                <viewController id="IlW-Es-2rO" customClass="BookingController" customModule="Revents" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zHq-Go-Ota"/>
+                        <viewControllerLayoutGuide type="bottom" id="8gd-yE-Vk1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HRb-R7-Vcr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDT-Ab-Kip">
+                                <rect key="frame" x="186" y="295" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Mqf-wD-ESU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nne-yT-Gd7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2051" y="-84"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cMZ-D2-PE8">
@@ -249,7 +269,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DaT-Jf-JX2" id="nw6-tY-Jk8">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <accessibility key="accessibilityConfiguration" identifier="cell"/>
@@ -330,10 +350,10 @@
             </objects>
             <point key="canvasLocation" x="1901" y="1907"/>
         </scene>
-        <!--Details Controller-->
+        <!--Booking Controller-->
         <scene sceneID="ZcP-yV-zgr">
             <objects>
-                <viewController id="MqQ-lh-cuX" customClass="DetailsController" customModule="Revents" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MqQ-lh-cuX" customClass="BookingController" customModule="Revents" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d1x-u5-D5U"/>
                         <viewControllerLayoutGuide type="bottom" id="CXS-ZM-nDh"/>
@@ -523,9 +543,6 @@
                                         <state key="normal" title="Submit">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="bNU-nc-Xdi" kind="push" id="zyO-49-JVf"/>
-                                        </connections>
                                     </button>
                                     <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ITS-Pi-pea">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -543,24 +560,24 @@
                     </view>
                     <navigationItem key="navigationItem" id="jAk-eo-3Ky"/>
                     <connections>
-                        <outlet property="city" destination="jrq-eX-vJr" id="dJx-9I-5SY"/>
-                        <outlet property="firstName" destination="yjd-5U-Rki" id="p0u-dP-fQ4"/>
-                        <outlet property="gender" destination="Emr-6x-0mh" id="Hlr-Vh-4v0"/>
-                        <outlet property="lastName" destination="fpp-Gw-iPM" id="MIG-hq-GUr"/>
-                        <outlet property="state" destination="fkh-MW-QQ1" id="V7N-OY-eCr"/>
-                        <outlet property="streetName" destination="laP-7n-j7v" id="WLa-RV-FWD"/>
-                        <outlet property="suburb" destination="uA5-sa-YCq" id="Ywv-8d-1SO"/>
-                        <outlet property="unitNo" destination="1hl-hn-fH1" id="t7R-52-Yao"/>
+                        <outlet property="city" destination="jrq-eX-vJr" id="WUA-Ox-4qm"/>
+                        <outlet property="firstName" destination="yjd-5U-Rki" id="QEf-UU-nhc"/>
+                        <outlet property="gender" destination="Emr-6x-0mh" id="HpN-TL-ZSf"/>
+                        <outlet property="lastName" destination="fpp-Gw-iPM" id="3aT-e3-3Zz"/>
+                        <outlet property="state" destination="fkh-MW-QQ1" id="Pjh-HI-TAg"/>
+                        <outlet property="streetName" destination="laP-7n-j7v" id="YJA-nG-ox4"/>
+                        <outlet property="suburb" destination="uA5-sa-YCq" id="D7x-bg-PPv"/>
+                        <outlet property="unitNo" destination="1hl-hn-fH1" id="eNW-Tg-hcY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9vk-m0-uJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2431" y="-947"/>
+            <point key="canvasLocation" x="2431" y="-1009"/>
         </scene>
         <!--Support-->
         <scene sceneID="F3h-0H-Na3">
             <objects>
-                <viewController storyboardIdentifier="next" id="MS4-vO-ia9" customClass="FormController" customModule="Revents" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="next" id="MS4-vO-ia9" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SAD-dF-pOl"/>
                         <viewControllerLayoutGuide type="bottom" id="jFv-Kb-SjI"/>
@@ -663,10 +680,10 @@
             </objects>
             <point key="canvasLocation" x="-38" y="1242"/>
         </scene>
-        <!--Confirmation Controller-->
+        <!--View Controller-->
         <scene sceneID="DEZ-Vn-kwV">
             <objects>
-                <viewController id="bNU-nc-Xdi" customClass="ConfirmationController" customModule="Revents" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bNU-nc-Xdi" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nOu-BF-9AW"/>
                         <viewControllerLayoutGuide type="bottom" id="kzv-dB-UIk"/>
@@ -761,7 +778,7 @@
         <!--Jobs-->
         <scene sceneID="5Wx-jz-HQh">
             <objects>
-                <viewController id="NFU-wY-vcs" customClass="JobsController" customModule="Revents" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NFU-wY-vcs" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jjA-Ah-bAb"/>
                         <viewControllerLayoutGuide type="bottom" id="Aul-ev-uNz"/>

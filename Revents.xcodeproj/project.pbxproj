@@ -37,6 +37,7 @@
 		A87B24081F4FE896002632D8 /* EventTimesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B24071F4FE896002632D8 /* EventTimesController.swift */; };
 		A87B240A1F4FEC8B002632D8 /* EventTimeDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B24091F4FEC8B002632D8 /* EventTimeDetailsController.swift */; };
 		A87B240C1F5006BB002632D8 /* BookedEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B240B1F5006BB002632D8 /* BookedEvents.swift */; };
+		A8DE96431F5108BB00943DD4 /* BookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DE96421F5108BB00943DD4 /* BookingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		A87B24071F4FE896002632D8 /* EventTimesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTimesController.swift; sourceTree = "<group>"; };
 		A87B24091F4FEC8B002632D8 /* EventTimeDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTimeDetailsController.swift; sourceTree = "<group>"; };
 		A87B240B1F5006BB002632D8 /* BookedEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookedEvents.swift; sourceTree = "<group>"; };
+		A8DE96421F5108BB00943DD4 /* BookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				A87B24071F4FE896002632D8 /* EventTimesController.swift */,
 				A8649BC31F4D28700075F53A /* ViewController.swift */,
 				A87B23E31F4D9037002632D8 /* viewControllerTableViewCell.swift */,
+				A8DE96421F5108BB00943DD4 /* BookingController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				A87B23E41F4D9037002632D8 /* viewControllerTableViewCell.swift in Sources */,
 				A8649BF81F4D4E6A0075F53A /* EventController.swift in Sources */,
 				A87B23F01F4D9C9D002632D8 /* Event.swift in Sources */,
+				A8DE96431F5108BB00943DD4 /* BookingController.swift in Sources */,
 				A87B23FA1F4F09A5002632D8 /* EventDetails.swift in Sources */,
 				A87B240A1F4FEC8B002632D8 /* EventTimeDetailsController.swift in Sources */,
 				A87B240C1F5006BB002632D8 /* BookedEvents.swift in Sources */,
