@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        performSegue(withIdentifier: "segiden", sender: self);
+       // sleep(2000);
+       // performSegue(withIdentifier: "segiden", sender: self);
     }
 
     override func didReceiveMemoryWarning() {

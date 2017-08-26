@@ -25,12 +25,16 @@ class EventDescriptionController: UIViewController {
     @IBOutlet weak var myEventTime: UILabel!
     
     @IBOutlet weak var myEventDescription: UITextView!
+     
+ //   @IBOutlet weak var bookNow: UIButton!
+    
+    @IBOutlet weak var backButton: UIBarButtonItem!
     
     
     var receivedData = ""
     
- 
-    
+    let obj = DetailsController();
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +46,18 @@ class EventDescriptionController: UIViewController {
         
         myEventTime.text? = DataModel.get.getEvents()[index!].eventTime;
         myEventDescription.text? = DataModel.get.getEvents()[index!].eventDescription;
+        
+      //  bookNow.addTarget(self, action: #selector(EventDescriptionController.buttonPressed(sender:)), for: .touchUpInside)
+        
     }
+    
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let childViewController = segue.destination as! DetailsController
+      //  childViewController.delegate = self
+        
+    }
+    
     
     
     override func didReceiveMemoryWarning() {

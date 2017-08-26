@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A82B570C1F5087CD0070ED23 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57011F5087CD0070ED23 /* call.png */; };
+		A82B570D1F5087CD0070ED23 /* finance.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57021F5087CD0070ED23 /* finance.png */; };
+		A82B570E1F5087CD0070ED23 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57031F5087CD0070ED23 /* history.png */; };
+		A82B570F1F5087CD0070ED23 /* icons8-Car Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57041F5087CD0070ED23 /* icons8-Car Filled-50.png */; };
+		A82B57101F5087CD0070ED23 /* icons8-Clock-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57051F5087CD0070ED23 /* icons8-Clock-50.png */; };
+		A82B57111F5087CD0070ED23 /* icons8-Ticket Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57061F5087CD0070ED23 /* icons8-Ticket Filled-50.png */; };
+		A82B57121F5087CD0070ED23 /* job.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57071F5087CD0070ED23 /* job.png */; };
+		A82B57131F5087CD0070ED23 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57081F5087CD0070ED23 /* location.png */; };
+		A82B57141F5087CD0070ED23 /* salesicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57091F5087CD0070ED23 /* salesicon.png */; };
+		A82B57151F5087CD0070ED23 /* support (1).png in Resources */ = {isa = PBXBuildFile; fileRef = A82B570A1F5087CD0070ED23 /* support (1).png */; };
+		A82B57161F5087CD0070ED23 /* tech.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B570B1F5087CD0070ED23 /* tech.png */; };
+		A82B57181F5088250070ED23 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = A82B57171F5088250070ED23 /* iPhone.png */; };
 		A8649BC21F4D28700075F53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8649BC11F4D28700075F53A /* AppDelegate.swift */; };
 		A8649BC41F4D28700075F53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8649BC31F4D28700075F53A /* ViewController.swift */; };
 		A8649BC71F4D28700075F53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8649BC51F4D28700075F53A /* Main.storyboard */; };
@@ -22,6 +34,9 @@
 		A87B23F41F4DD22D002632D8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B23F31F4DD22D002632D8 /* DataModel.swift */; };
 		A87B23FA1F4F09A5002632D8 /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B23F91F4F09A5002632D8 /* EventDetails.swift */; };
 		A87B23FE1F4F241C002632D8 /* EventDescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B23FD1F4F241C002632D8 /* EventDescriptionController.swift */; };
+		A87B24081F4FE896002632D8 /* EventTimesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B24071F4FE896002632D8 /* EventTimesController.swift */; };
+		A87B240A1F4FEC8B002632D8 /* EventTimeDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B24091F4FEC8B002632D8 /* EventTimeDetailsController.swift */; };
+		A87B240C1F5006BB002632D8 /* BookedEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B240B1F5006BB002632D8 /* BookedEvents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A82B57011F5087CD0070ED23 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call.png; path = "../../../Downloads/attachments-6/call.png"; sourceTree = "<group>"; };
+		A82B57021F5087CD0070ED23 /* finance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = finance.png; path = "../../../Downloads/attachments-6/finance.png"; sourceTree = "<group>"; };
+		A82B57031F5087CD0070ED23 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history.png; path = "../../../Downloads/attachments-6/history.png"; sourceTree = "<group>"; };
+		A82B57041F5087CD0070ED23 /* icons8-Car Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-Car Filled-50.png"; path = "../../../Downloads/attachments-6/icons8-Car Filled-50.png"; sourceTree = "<group>"; };
+		A82B57051F5087CD0070ED23 /* icons8-Clock-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-Clock-50.png"; path = "../../../Downloads/attachments-6/icons8-Clock-50.png"; sourceTree = "<group>"; };
+		A82B57061F5087CD0070ED23 /* icons8-Ticket Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-Ticket Filled-50.png"; path = "../../../Downloads/attachments-6/icons8-Ticket Filled-50.png"; sourceTree = "<group>"; };
+		A82B57071F5087CD0070ED23 /* job.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = job.png; path = "../../../Downloads/attachments-6/job.png"; sourceTree = "<group>"; };
+		A82B57081F5087CD0070ED23 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = "../../../Downloads/attachments-6/location.png"; sourceTree = "<group>"; };
+		A82B57091F5087CD0070ED23 /* salesicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salesicon.png; path = "../../../Downloads/attachments-6/salesicon.png"; sourceTree = "<group>"; };
+		A82B570A1F5087CD0070ED23 /* support (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "support (1).png"; path = "../../../Downloads/attachments-6/support (1).png"; sourceTree = "<group>"; };
+		A82B570B1F5087CD0070ED23 /* tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tech.png; path = "../../../Downloads/attachments-6/tech.png"; sourceTree = "<group>"; };
+		A82B57171F5088250070ED23 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone.png; path = ../../../Downloads/iPhone.png; sourceTree = "<group>"; };
 		A8649BBE1F4D28700075F53A /* Revents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8649BC11F4D28700075F53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8649BC31F4D28700075F53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +90,9 @@
 		A87B23F31F4DD22D002632D8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		A87B23F91F4F09A5002632D8 /* EventDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
 		A87B23FD1F4F241C002632D8 /* EventDescriptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptionController.swift; sourceTree = "<group>"; };
+		A87B24071F4FE896002632D8 /* EventTimesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTimesController.swift; sourceTree = "<group>"; };
+		A87B24091F4FEC8B002632D8 /* EventTimeDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTimeDetailsController.swift; sourceTree = "<group>"; };
+		A87B240B1F5006BB002632D8 /* BookedEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookedEvents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +120,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A82B57001F50878F0070ED23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A82B57171F5088250070ED23 /* iPhone.png */,
+				A82B57011F5087CD0070ED23 /* call.png */,
+				A82B57021F5087CD0070ED23 /* finance.png */,
+				A82B57031F5087CD0070ED23 /* history.png */,
+				A82B57041F5087CD0070ED23 /* icons8-Car Filled-50.png */,
+				A82B57051F5087CD0070ED23 /* icons8-Clock-50.png */,
+				A82B57061F5087CD0070ED23 /* icons8-Ticket Filled-50.png */,
+				A82B57071F5087CD0070ED23 /* job.png */,
+				A82B57081F5087CD0070ED23 /* location.png */,
+				A82B57091F5087CD0070ED23 /* salesicon.png */,
+				A82B570A1F5087CD0070ED23 /* support (1).png */,
+				A82B570B1F5087CD0070ED23 /* tech.png */,
+				A87B23EB1F4D9120002632D8 /* e2.jpg */,
+				A87B23E91F4D911A002632D8 /* e1.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		A8649BB51F4D28700075F53A = {
 			isa = PBXGroup;
 			children = (
@@ -113,14 +164,12 @@
 		A8649BC01F4D28700075F53A /* Revents */ = {
 			isa = PBXGroup;
 			children = (
-				A87B23E91F4D911A002632D8 /* e1.jpg */,
-				A87B23EB1F4D9120002632D8 /* e2.jpg */,
+				A82B57001F50878F0070ED23 /* Images */,
 				A8649BF41F4D362A0075F53A /* Controller */,
 				A8649BF31F4D36240075F53A /* Model */,
 				A8649BF11F4D35FE0075F53A /* View */,
 				A8649BC11F4D28700075F53A /* AppDelegate.swift */,
 				A8649BC81F4D28700075F53A /* Assets.xcassets */,
-				A8649BCA1F4D28700075F53A /* LaunchScreen.storyboard */,
 				A8649BCD1F4D28700075F53A /* Info.plist */,
 			);
 			path = Revents;
@@ -147,6 +196,7 @@
 		A8649BF11F4D35FE0075F53A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A8649BCA1F4D28700075F53A /* LaunchScreen.storyboard */,
 				A8649BC51F4D28700075F53A /* Main.storyboard */,
 			);
 			name = View;
@@ -158,6 +208,7 @@
 				A87B23F31F4DD22D002632D8 /* DataModel.swift */,
 				A87B23EF1F4D9C9D002632D8 /* Event.swift */,
 				A87B23F91F4F09A5002632D8 /* EventDetails.swift */,
+				A87B240B1F5006BB002632D8 /* BookedEvents.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -165,10 +216,12 @@
 		A8649BF41F4D362A0075F53A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A8649BC31F4D28700075F53A /* ViewController.swift */,
 				A8649BF71F4D4E6A0075F53A /* EventController.swift */,
-				A87B23E31F4D9037002632D8 /* viewControllerTableViewCell.swift */,
 				A87B23FD1F4F241C002632D8 /* EventDescriptionController.swift */,
+				A87B24091F4FEC8B002632D8 /* EventTimeDetailsController.swift */,
+				A87B24071F4FE896002632D8 /* EventTimesController.swift */,
+				A8649BC31F4D28700075F53A /* ViewController.swift */,
+				A87B23E31F4D9037002632D8 /* viewControllerTableViewCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -280,11 +333,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82B570E1F5087CD0070ED23 /* history.png in Resources */,
+				A82B570F1F5087CD0070ED23 /* icons8-Car Filled-50.png in Resources */,
 				A87B23EC1F4D9120002632D8 /* e2.jpg in Resources */,
+				A82B57151F5087CD0070ED23 /* support (1).png in Resources */,
+				A82B57141F5087CD0070ED23 /* salesicon.png in Resources */,
+				A82B570D1F5087CD0070ED23 /* finance.png in Resources */,
 				A87B23EA1F4D911A002632D8 /* e1.jpg in Resources */,
+				A82B57181F5088250070ED23 /* iPhone.png in Resources */,
 				A8649BCC1F4D28700075F53A /* LaunchScreen.storyboard in Resources */,
+				A82B57111F5087CD0070ED23 /* icons8-Ticket Filled-50.png in Resources */,
 				A8649BC91F4D28700075F53A /* Assets.xcassets in Resources */,
+				A82B57101F5087CD0070ED23 /* icons8-Clock-50.png in Resources */,
+				A82B57121F5087CD0070ED23 /* job.png in Resources */,
 				A8649BC71F4D28700075F53A /* Main.storyboard in Resources */,
+				A82B57131F5087CD0070ED23 /* location.png in Resources */,
+				A82B570C1F5087CD0070ED23 /* call.png in Resources */,
+				A82B57161F5087CD0070ED23 /* tech.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +382,9 @@
 				A8649BF81F4D4E6A0075F53A /* EventController.swift in Sources */,
 				A87B23F01F4D9C9D002632D8 /* Event.swift in Sources */,
 				A87B23FA1F4F09A5002632D8 /* EventDetails.swift in Sources */,
+				A87B240A1F4FEC8B002632D8 /* EventTimeDetailsController.swift in Sources */,
+				A87B240C1F5006BB002632D8 /* BookedEvents.swift in Sources */,
+				A87B24081F4FE896002632D8 /* EventTimesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
